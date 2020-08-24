@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>قالب به سبک متریال دیزاین</title>
+<!--وارد کردن فونت گوگل-->
+<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!--وارد کردن کد های سی اس اس-->
+<link type="text/css" rel="stylesheet" href="css/mer-material.min.css"  media="screen,projection"/>
+<!--اجازه دادن به مرورگر برای درک اینکه قالب برای موبایل هم طراحی شده-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<style>
+
+.top-nav {
+	background-color: #060606a1 !important;
+}
+.slider {
+    margin-top: -62px;
+}
+.slider .btn {
+	position: relative;
+  top: -49%;
+  z-index: 99;
+  background-color: #26a69a69 !important;
+}
+.color1{
+	background-color: #d9d9d9 !important;
+}
+.box1{background: #000000ab;}
+label::after {
+    display: inline-block !important;
+    position: relative !important;
+}
+.container {
+
+    color: #fff !important;
+
+}
+
+</style>
+</head>
+<body>
+
+	<div class="navbar-fixed">
+<nav class="top-nav">
+<div class="nav-wrapper container">
+<a href="" class="brand-logo teal-text right">FrontEnd</a>
+
+
+<ul class="left hide-on-med-and-down">
+
+<!-- <li><a href="##!" class="search-button white-text" data-activates="serch"><i class="material-icons">search</i></a></li>
+
+<ul id="serch"  class="dropdown-content">
+	<li class="nav-wrapper green"   >
+	<form>
+	<div class="input-field">
+	<input type="search" >
+	<label for="seach"><i class="material-icons">search</i></label>
+	</div>
+	</form>
+</li>
+</ul>  -->
+
+<li><a href="#" class="teal-text">Home</a></li>
+<li><a href="#" class="teal-text">About Us</a></li>
+<li><a href="##!" class="dropdown-button teal-text" data-activates="dropdown">Portfolio<i class="mdi-navigation-arrow-drop-down right"></i></a></li>
+<ul id="dropdown" class="dropdown-content">
+<li><a href="###">Link 1</a></li>
+<li><a href="###">Link 2</a></li>
+<li><a href="###">Link 3</a></li>
+</ul>
+<li><a href="#" class="teal-text">Contact US</a></li>
+</ul>
+<ul class="side-nav" id="nav-mobile">
+	<li><a href="#" onClick="$('.button-collapse').sideNav('hide')"><i class="material-icons right">close</i></a></li>
+
+	<li><a href="http://127.0.0.1:5500/index.html" class="teal-text">Home</a></li>
+	<li><a href="#" class="teal-text">About Us</a></li>
+	<li class="no-padding">
+		<ul class="collapsible collapsible-accordion">
+		<li><a class="collapsible-header teal-text">Portfolio<i class="mdi-navigation-arrow-drop-down"></i></a>
+		<div class="collapsible-body">
+		<ul>
+		<li><a href="###">Link 1</a></li>
+		<li><a href="###">Link 2</a></li>
+		<li><a href="###">Link 3</a></li>
+		</ul>
+		</div>
+		</li>
+		</ul>
+		</li>
+	<li><a href="#" class="teal-text">Contact US</a></li>
+</ul>
+<a data-activates="nav-mobile" href="#" class="button-collapse"><i class="material-icons teal-text">menu</i></a>
+</div>
+</nav>
+</div>
+
+
+
+
+<div class="slider">
+	<ul class="slides" onMouseOver="$('.slider').slider('pause')" onMouseOut="$('.slider').slider('start')">
+	<li><img src="http://water-rocket.ir/forestbridge.jpg" alt=""/><div class="caption center-align">
+		<br>
+		<h1 class="header center teal-text text-lighten-1">Hiii</h1><br>
+		<h3 class="header col s12 light center white-text">Wellcome to my Website</h3><br><br>
+		<div class="row center">
+		<a class="btn btn-large waves-effect waves-light" href="http://material.wmer.ir/">Download my Cv</a>
+	</div>
+		<br><br>
+	</div></li>
+
+	<li><img src="img1.jpg" alt=""/><div class="caption right-align">
+	<h3>Title</h3>
+	<h5>Content</h5>
+	</div></li>
+	</ul>
+	
+	<a class="btn right" onClick="$('.slider').slider('next') "><i class="material-icons medium">navigate_next</i></a>
+	<a class="btn left" onClick="$('.slider').slider('prev') "><i class="material-icons medium">navigate_next</i></a>
+	
+	
+	</div>
+
+
+
+	<div class="row">
+		<div class="col l3 s12 m6">
+			<div class="card">
+				<div class="card-image waves-effect waves-block waves-light">
+				  <img class="activator" src="img2.jpg">
+				</div>
+				<div class="card-content">
+				  <span class="card-title activator grey-text text-darken-4">Mahoor<i class="material-icons right">more_vert</i></span>
+				  <p><a href="https://iranbabyfoot.com/">Go to Mahoor</a></p>
+				</div>
+				<div class="card-reveal color1">
+				  <span class="card-title teal-text  ">Mahoor<i class="material-icons right">close</i></span>
+				  <p>WordPress website</p>
+				</div>
+			  </div>
+		</div>
+		<div class="col l3 s12 m6">
+			<div class="card">
+				<div class="card-image waves-effect waves-block waves-light">
+				  <img class="activator" src="img2.jpg">
+				</div>
+				<div class="card-content">
+				  <span class="card-title activator grey-text text-darken-4">Khana Soft<i class="material-icons right">more_vert</i></span>
+				  <p><a href="http://www.khanasoft.ir/">Go to Khana soft</a></p>
+				</div>
+				<div class="card-reveal color1">
+				  <span class="card-title teal-text  ">Khana Soft<i class="material-icons right">close</i></span>
+				  <p>Joomla website</p>
+				</div>
+			  </div>
+		  </div>
+		  <div class="col l3 s12 m6">
+			<div class="card">
+				<div class="card-image waves-effect waves-block waves-light">
+				  <img class="activator" src="img2.jpg">
+				</div>
+				<div class="card-content">
+				  <span class="card-title activator grey-text text-darken-4">Mahoor<i class="material-icons right">more_vert</i></span>
+				  <p><a href="https://iranbabyfoot.com/">Go to Mahoor</a></p>
+				</div>
+				<div class="card-reveal color1">
+				  <span class="card-title teal-text  ">Mahoor<i class="material-icons right">close</i></span>
+				  <p>WordPress website</p>
+				</div>
+			  </div>
+		</div>
+		<div class="col l3 s12 m6">
+			<div class="card">
+				<div class="card-image waves-effect waves-block waves-light">
+				  <img class="activator" src="img2.jpg">
+				</div>
+				<div class="card-content">
+				  <span class="card-title activator grey-text text-darken-4">Khana Soft<i class="material-icons right">more_vert</i></span>
+				  <p><a href="http://www.khanasoft.ir/">Go to Khana soft</a></p>
+				</div>
+				<div class="card-reveal color1">
+				  <span class="card-title teal-text  ">Khana Soft<i class="material-icons right">close</i></span>
+				  <p>Joomla website</p>
+				</div>
+			  </div>
+		  </div>
+	  </div>
+
+	<div class="container">
+		<div class="row">
+			<div class=" col l8 m6 s12 offset-l2">
+			<img src="img1.jpg" class="materialboxed responsive-img" data-caption="This is the discription of this photo" alt=""/>
+			</div>
+	</div>
+</div>
+
+<div class="parallax-container">
+<div class="section box1">
+<div class="container">
+<div class="row center">
+
+<div class="container">
+<h3 class="white-text">Contact Us</h3>
+	<div class="input-field">
+	<i class="material-icons prefix white-text">assignment_ind</i>
+	<input class="validate white-text" id="LN" type="text">
+	<label for="LN">FullName</label>
+	</div>
+	<div class="input-field">
+	 <i class="material-icons prefix white-text">lock</i>
+	<input class="validate white-text" id="PW" type="password">
+	<label for="PW">Password</label>
+	</div>
+	<div class="input-field">
+		<i class="material-icons prefix white-text">email</i>
+	<input class="validate white-text" id="EM" type="email">
+	<label data-error="Please Enter an Email" data-success="You Have Entered an Email" for="EM">Email</label>
+	</div>
+	<div class="input-field">
+		<i class="material-icons prefix white-text">info</i>
+	<textarea length="120" id="TA" class="materialize-textarea white-text"></textarea>
+	<label for="TA">TextArea</label>
+	</div><br>
+	<button class="btn waves-effect left"><i class="material-icons white-text small right">send</i>Button</button>
+	
+	</div>
+
+</div>
+</div>
+</div>
+<div class="parallax"><img src="img3.jpg" alt=""/></div>
+</div>
+
+
+<div class="carousel center">
+	<a class="carousel-item teal" href="#one!"><img src="https://lorempixel.com/250/250/nature/1"> <span class="card-title activator white-text  ">Mahoor</span>
+	</a>
+	<a class="carousel-item teal" href="#two!"><img src="https://lorempixel.com/250/250/nature/2"><span class="card-title activator white-text">Khana soft</span></a>
+	<a class="carousel-item teal" href="#three!"><img src="https://lorempixel.com/250/250/nature/3"><span class="card-title activator white-text">Mahoor</span></a>
+	<a class="carousel-item teal" href="#four!"><img src="https://lorempixel.com/250/250/nature/4"><span class="card-title activator white-text">Khana soft</span></a>
+	<a class="carousel-item teal" href="#five!"><img src="https://lorempixel.com/250/250/nature/5"><span class="card-title activator white-text">Mahoor</span></a>
+  </div>
+
+
+
+
+<footer class="page-footer teal">
+<div class="container">
+<div class="row">
+<div class="col l6 s12">
+<h5 class="white-text">About Us</h5>
+<p class="grey-text text-lighten-4">Content of About Us</p>
+</div>
+<div class="col l3 s12">
+<h5 class="white-text">Links 1</h5>
+<ul>
+<li><a href="###" class="grey-text text-lighten-4">Link 1</a></li>
+<li><a href="###" class="grey-text text-lighten-4">Link 2</a></li>
+<li><a href="###" class="grey-text text-lighten-4">Link 3</a></li>
+<li><a href="###" class="grey-text text-lighten-4">Link 4</a></li>
+</ul>
+</div>
+<div class="col l3 s12">
+<h5 class="white-text">Links 2</h5>
+<ul>
+<li><a href="###" class="grey-text text-lighten-4">Link 1</a></li>
+<li><a href="###" class="grey-text text-lighten-4">Link 2</a></li>
+<li><a href="###" class="grey-text text-lighten-4">Link 3</a></li>
+<li><a href="###" class="grey-text text-lighten-4">Link 4</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="footer-copyright">
+<div class="container">
+Made by <a href="#" class="grey-text text-lighten-4">H M D </a>
+</div>
+</div>
+<div class="fixed-action-btn vertical click-to-toggle" style="margin-bottom:30px;margin-right:30px;">
+	<a href="###" class="btn-floating btn-large red waves-effect"><i class="material-icons">mode_edit</i></a>
+	<ul>
+	<li><a href="#!" class="btn-floating green"><i class="material-icons">insert_chart</i></a></li>
+	<li><a href="#!" class="btn-floating red"><i class="material-icons">format_quote</i></a></li>
+	<li><a href="#!" class="btn-floating blue"><i class="material-icons">publish</i></a></li>
+	<li><a href="#!" class="btn-floating yellow darken-2"><i class="material-icons">attach_file</i></a></li>
+	</ul>
+	</div>
+</footer>
+
+<!--وارد کردن کد های جاوا اسکریپت-->
+<script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
+<script type="text/javascript" src="js/mer-material.min.js"></script>
+<script>
+$(document).ready(function(){
+	$('.button-collapse').sideNav();
+	$('.parallax').parallax();
+	$('.slider').slider({
+		full_width:true,
+		indicators: true,
+	 height:500 ,
+		transition: 1000,
+		interval: 4000	
+	});
+	$('input#TA').characterCounter();
+	$('.dropdown-button').dropdown({
+		inDuration: 300,
+		outDuration: 200,
+		constrain_width: true,
+		gutter: 0,
+		belowOrigin: true,
+		alignment: 'right'
+	});
+	$('.search-button').dropdown({
+		inDuration: 300,
+		outDuration: 200,
+		constrain_width: 1300,
+		gutter: 0,
+		belowOrigin: true,
+		alignment: 'right'
+	});
+	$('.materialboxed').materialbox();
+
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.carousel');
+    var instances = M.Carousel.init(elems, options);
+  });
+
+  // Or with jQuery
+
+  $(document).ready(function(){
+    $('.carousel').carousel();
+  });
+</script>
+
+
+</body>
+</html>
